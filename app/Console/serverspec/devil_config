@@ -1,0 +1,6 @@
+Host *
+  User devil
+  Port 22
+  IdentityFile /var/www/html/devilspie/app/Config/devil_rsa
+  TCPKeepAlive yes
+  IdentitiesOnly yes

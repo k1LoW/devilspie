@@ -1,0 +1,79 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2013-06-06 18:11+0900\n"
+"PO-Revision-Date: 2013-06-06 18:14+0900\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Plugin/Yav/Model/Behavior/AdditionalValidationPatternsBehavior.php:116
+msgid "Validation Error: required"
+msgstr "入力してください"
+
+#: Plugin/Yav/Model/Behavior/AdditionalValidationPatternsBehavior.php:117
+msgid "Validation Error: notEmpty"
+msgstr "入力してください"
+
+#: Plugin/Yav/Model/Behavior/AdditionalValidationPatternsBehavior.php:118;132
+msgid "Validation Error: checkboxCheck"
+msgstr "選択してください"
+
+#: Plugin/Yav/Model/Behavior/AdditionalValidationPatternsBehavior.php:119
+msgid "Validation Error: numeric"
+msgstr "半角数字で入力してください"
+
+#: Plugin/Yav/Model/Behavior/AdditionalValidationPatternsBehavior.php:120
+msgid "Validation Error: isUnique"
+msgstr "既に使われています"
+
+#: Plugin/Yav/Model/Behavior/AdditionalValidationPatternsBehavior.php:121
+msgid "Validation Error: date"
+msgstr "日付の形式が不正です"
+
+#: Plugin/Yav/Model/Behavior/AdditionalValidationPatternsBehavior.php:122
+msgid "Validation Error: email"
+msgstr "メールアドレスの形式が不正です"
+
+#: Plugin/Yav/Model/Behavior/AdditionalValidationPatternsBehavior.php:123
+msgid "Validation Error: compare2fieldsEmail"
+msgstr "確認用メールアドレスが異なります"
+
+#: Plugin/Yav/Model/Behavior/AdditionalValidationPatternsBehavior.php:124
+msgid "Validation Error: compare2fieldsPassword"
+msgstr "確認用パスワードが異なります"
+
+#: Plugin/Yav/Model/Behavior/AdditionalValidationPatternsBehavior.php:125
+msgid "Validation Error: passwordCurrent"
+msgstr "パスワードが異なります"
+
+#: Plugin/Yav/Model/Behavior/AdditionalValidationPatternsBehavior.php:126
+msgid "Validation Error: zenkakuOnly"
+msgstr "全角で入力してください"
+
+#: Plugin/Yav/Model/Behavior/AdditionalValidationPatternsBehavior.php:127
+msgid "Validation Error: katakanaOnly"
+msgstr "全角カタカナで入力してください"
+
+#: Plugin/Yav/Model/Behavior/AdditionalValidationPatternsBehavior.php:128
+msgid "Validation Error: katakanaAndSpace"
+msgstr "全角カタカナと全角スペースで入力してください"
+
+#: Plugin/Yav/Model/Behavior/AdditionalValidationPatternsBehavior.php:129
+msgid "Validation Error: notEmptyFile"
+msgstr "ファイルを選択してください"
+
+#: Plugin/Yav/Model/Behavior/AdditionalValidationPatternsBehavior.php:130
+msgid "Validation Error: checkExtension"
+msgstr "ファイル形式が不正です"
+
+#: Plugin/Yav/Model/Behavior/AdditionalValidationPatternsBehavior.php:131
+msgid "Validation Error: checkFileSize"
+msgstr "ファイルサイズが上限を超えています"
