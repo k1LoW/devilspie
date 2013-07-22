@@ -15,8 +15,8 @@
       - php-pgsql
       - php-gd
   - name: Set date.timezone
-    lineinfile: dest=/etc/php.ini regexp='^;date.timezone =' line='date.timezone = Asia/Tokyo'
+    action: lineinfile dest=/etc/php.ini regexp='^;date.timezone =' line='date.timezone = Asia/Tokyo'
   - name: Restart Apache
     action: service name=httpd state=restarted
   - name: Set permission
-    file: path=/var/www/html owner=root group=root mode=0777 force=yes state=directory
+    action: file path=/var/www/html owner=root group=root mode=0777 force=yes state=directory

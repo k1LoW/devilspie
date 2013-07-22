@@ -20,7 +20,7 @@
   - name: Check Apache
     action: service name=httpd state=started
   - name: Set permission
-    file: path=/var/www/html owner=root group=root mode=0777 force=yes state=directory
+    action: file path=/var/www/html owner=root group=root mode=0777 force=yes state=directory
   handlers:
     - name: Restart Apache
       action: service name=httpd state=restarted
